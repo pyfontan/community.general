@@ -1943,7 +1943,7 @@ class RedfishUtils(object):
         nic_results = []
         key = "EthernetInterfaces"
         # Get these entries, but does not fail if not found
-        properties = ['Description', 'FQDN', 'IPv4Addresses', 'IPv6Addresses',
+        properties = ['Description', 'FQDN', 'Id', 'IPv4Addresses', 'IPv6Addresses',
                       'NameServers', 'MACAddress', 'PermanentMACAddress',
                       'SpeedMbps', 'MTUSize', 'AutoNeg', 'Status']
 
